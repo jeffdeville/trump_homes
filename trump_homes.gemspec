@@ -19,4 +19,8 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.1"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-given", "~> 3.7"
+  s.add_development_dependency "codeclimate-test-reporter"
+  s.add_development_dependency 'dotenv'
+  s.add_development_dependency 'rspec-rails'
 end
